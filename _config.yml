@@ -1,0 +1,33 @@
+title: MTV Project Plan
+description: MTV Milestone 3 Project Plan
+
+remote_theme: abhinavs/moonwalk
+
+theme_config:
+  appearance: "dark"
+  show_description: false
+  show_navbar: false
+  show_footer: false
+  show_projects: false
+  show_old_projects: false
+  show_misc_list: false
+  show_blog: false
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-soopr-seo-tag
+
+sass:
+  style: compressed
+
+exclude:
+  - app
+  - server
+  - milestone_1.md
+  - milestone_2_architecture.md
+  - milestone_2_requirements.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
